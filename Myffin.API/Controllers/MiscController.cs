@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Myffin.API.Models;
 using Myffin.API.Responses;
 using Myffin.API.Responses.Misc;
 
@@ -15,12 +16,12 @@ namespace Myffin.API.Controllers
             return new ResponseWrapper<GetPolicyDocumentsResponse>(OperationStatus.Success)
             {
                 ResponseData = new GetPolicyDocumentsResponse(
-                    new List<Models.PolicyDocument>()
+                    new List<PolicyDocument>()
                     {
-                        new Models.PolicyDocument("Privacy Policy", "https://pravo.ru/story/238705/"),
-                        new Models.PolicyDocument("Esign Consent", "https://pravo.ru/story/238705/"),
-                        new Models.PolicyDocument("T&Cs", "https://pravo.ru/story/238705/"),
-                        new Models.PolicyDocument("Communication Policy", "https://pravo.ru/story/238705/"),
+                        new PolicyDocument("Privacy Policy", "https://pravo.ru/story/238705/"),
+                        new PolicyDocument("Esign Consent", "https://pravo.ru/story/238705/"),
+                        new PolicyDocument("T&Cs", "https://pravo.ru/story/238705/"),
+                        new PolicyDocument("Communication Policy", "https://pravo.ru/story/238705/"),
                     }
                 )
             };
