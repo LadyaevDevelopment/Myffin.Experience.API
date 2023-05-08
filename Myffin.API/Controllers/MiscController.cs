@@ -5,8 +5,8 @@ using Myffin.API.Responses.Misc;
 namespace Myffin.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
-    public class MiscController: ControllerBase
+    [Route("v{version:apiVersion}/[controller]")]
+    public class MiscController: Controller
     {
         [HttpGet]
         [Route("PolicyDocuments")]

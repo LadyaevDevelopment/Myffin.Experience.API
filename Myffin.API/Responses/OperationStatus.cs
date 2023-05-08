@@ -6,6 +6,7 @@
         Failed,
         Forbidden,
         InvalidRequest,
-        NotFound
+        NotFound,
+        UnsupportedApiVersion
     }
 }
