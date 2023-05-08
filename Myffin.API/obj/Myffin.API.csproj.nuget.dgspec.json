@@ -1,0 +1,149 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Android\\Myffin.Experience.API\\Myffin.API\\Myffin.API.csproj": {}
+  },
+  "projects": {
+    "D:\\Android\\Myffin.Experience.API\\Myffin.API\\Myffin.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Android\\Myffin.Experience.API\\Myffin.API\\Myffin.API.csproj",
+        "projectName": "Myffin.API",
+        "projectPath": "D:\\Android\\Myffin.Experience.API\\Myffin.API\\Myffin.API.csproj",
+        "packagesPath": "C:\\Users\\LadyaevDevelopment\\.nuget\\packages\\",
+        "outputPath": "D:\\Android\\Myffin.Experience.API\\Myffin.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LadyaevDevelopment\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\SpaceApp\\sia\\CodeGeneration\\SpaceApp.Dev.ApiToMobile\\SpaceApp.Dev.ApiToMobile.csproj": {
+                "projectPath": "D:\\SpaceApp\\sia\\CodeGeneration\\SpaceApp.Dev.ApiToMobile\\SpaceApp.Dev.ApiToMobile.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\SpaceApp\\sia\\CodeGeneration\\SpaceApp.Dev.ApiToMobile\\SpaceApp.Dev.ApiToMobile.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SpaceApp\\sia\\CodeGeneration\\SpaceApp.Dev.ApiToMobile\\SpaceApp.Dev.ApiToMobile.csproj",
+        "projectName": "SpaceApp.Dev.ApiToMobile",
+        "projectPath": "D:\\SpaceApp\\sia\\CodeGeneration\\SpaceApp.Dev.ApiToMobile\\SpaceApp.Dev.ApiToMobile.csproj",
+        "packagesPath": "C:\\Users\\LadyaevDevelopment\\.nuget\\packages\\",
+        "outputPath": "D:\\SpaceApp\\sia\\CodeGeneration\\SpaceApp.Dev.ApiToMobile\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LadyaevDevelopment\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.CodeDom": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

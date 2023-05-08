@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Myffin.API", "Myffin.API.csproj", "{EC8B8F73-FCD1-4FF3-8E57-4AD3585E1A5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeGeneration", "CodeGeneration", "{0DC83407-23EB-4208-AD9C-93FF28B3D76E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiClientsCodeGenerator", "..\..\..\SpaceApp\sia\CodeGeneration\ApiClientsCodeGenerator\ApiClientsCodeGenerator.csproj", "{3A7E2499-8783-4DA0-B5F9-AAFA2F450C39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerCodeGenerator", "..\..\..\SpaceApp\sia\CodeGeneration\ServerCodeGenerator\ServerCodeGenerator.csproj", "{838C704E-3BFF-4D83-BED4-B39BF7231B6A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceApp.Dev.ApiToMobile", "..\..\..\SpaceApp\sia\CodeGeneration\SpaceApp.Dev.ApiToMobile\SpaceApp.Dev.ApiToMobile.csproj", "{12CCEF17-0105-4996-A61F-708FA3FBCCE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC8B8F73-FCD1-4FF3-8E57-4AD3585E1A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC8B8F73-FCD1-4FF3-8E57-4AD3585E1A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC8B8F73-FCD1-4FF3-8E57-4AD3585E1A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC8B8F73-FCD1-4FF3-8E57-4AD3585E1A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7E2499-8783-4DA0-B5F9-AAFA2F450C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7E2499-8783-4DA0-B5F9-AAFA2F450C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7E2499-8783-4DA0-B5F9-AAFA2F450C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7E2499-8783-4DA0-B5F9-AAFA2F450C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{838C704E-3BFF-4D83-BED4-B39BF7231B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838C704E-3BFF-4D83-BED4-B39BF7231B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838C704E-3BFF-4D83-BED4-B39BF7231B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838C704E-3BFF-4D83-BED4-B39BF7231B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12CCEF17-0105-4996-A61F-708FA3FBCCE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12CCEF17-0105-4996-A61F-708FA3FBCCE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12CCEF17-0105-4996-A61F-708FA3FBCCE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12CCEF17-0105-4996-A61F-708FA3FBCCE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A7E2499-8783-4DA0-B5F9-AAFA2F450C39} = {0DC83407-23EB-4208-AD9C-93FF28B3D76E}
+		{838C704E-3BFF-4D83-BED4-B39BF7231B6A} = {0DC83407-23EB-4208-AD9C-93FF28B3D76E}
+		{12CCEF17-0105-4996-A61F-708FA3FBCCE2} = {0DC83407-23EB-4208-AD9C-93FF28B3D76E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60D6DBD7-30EF-484F-BF00-4B678190D7D4}
+	EndGlobalSection
+EndGlobal

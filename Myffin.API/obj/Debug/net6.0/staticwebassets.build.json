@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "g25ekXIkmzkeEBIBEJVHEHZZZHZjqyxSGMm4qABOPOY=",
+  "Source": "Myffin.API",
+  "BasePath": "_content/Myffin.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
