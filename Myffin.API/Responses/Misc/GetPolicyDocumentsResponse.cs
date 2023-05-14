@@ -8,9 +8,9 @@ namespace Myffin.API.Responses.Misc
     {
         [Required]
         [GenericArgumentsNotNull]
-        public List<PolicyDocument> Documents { get; set; }
+        public List<PolicyDocumentModel> Documents { get; set; }
 
-        public GetPolicyDocumentsResponse(List<PolicyDocument> documents)
+        public GetPolicyDocumentsResponse(List<PolicyDocumentModel> documents)
         {
             Documents = documents;
         }

@@ -2,7 +2,7 @@
 
 namespace Myffin.API.Models
 {
-    public class PolicyDocument
+    public class PolicyDocumentModel
     {
         [Required]
         public string Title { get; set; }
@@ -10,7 +10,7 @@ namespace Myffin.API.Models
         [Required]
         public string Url { get; set; }
 
-        public PolicyDocument(string title, string url)
+        public PolicyDocumentModel(string title, string url)
         {
             Title = title;
             Url = url;

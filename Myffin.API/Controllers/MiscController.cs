@@ -16,12 +16,12 @@ namespace Myffin.API.Controllers
             return new ResponseWrapper<GetPolicyDocumentsResponse>(OperationStatus.Success)
             {
                 ResponseData = new GetPolicyDocumentsResponse(
-                    new List<PolicyDocument>()
+                    new List<PolicyDocumentModel>()
                     {
-                        new PolicyDocument("Privacy Policy", "https://pravo.ru/story/238705/"),
-                        new PolicyDocument("Esign Consent", "https://pravo.ru/story/238705/"),
-                        new PolicyDocument("T&Cs", "https://pravo.ru/story/238705/"),
-                        new PolicyDocument("Communication Policy", "https://pravo.ru/story/238705/"),
+                        new PolicyDocumentModel("Privacy Policy", "https://pravo.ru/story/238705/"),
+                        new PolicyDocumentModel("Esign Consent", "https://pravo.ru/story/238705/"),
+                        new PolicyDocumentModel("T&Cs", "https://pravo.ru/story/238705/"),
+                        new PolicyDocumentModel("Communication Policy", "https://pravo.ru/story/238705/"),
                     }
                 )
             };
